@@ -1,2 +1,3 @@
-// 1647906 - Luno reference
-alert('Hello!');
+import load from './initial'
+
+load();
