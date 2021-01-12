@@ -1,5 +1,7 @@
 import initialLoad from './initial'
 import loadMenu from './menu'
+import loadContact from './contact'
 
-initialLoad();
+initialLoad;
 loadMenu;
+loadContact;
