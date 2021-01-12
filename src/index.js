@@ -1,3 +1,5 @@
-import load from './initial'
+import initialLoad from './initial'
+import loadMenu from './menu'
 
-load();
+initialLoad();
+loadMenu;
