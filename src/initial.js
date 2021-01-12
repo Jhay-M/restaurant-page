@@ -25,7 +25,7 @@ let initialLoad = () => {
     image.appendChild(banner);
 
     let summary = document.createElement('p');
-    summary.classList.add('summary');
+    summary.id = 'summary';
     summary.textContent = `Feeling Hungry? Peckish? Just bored? Head on over to Jhay's Treats. We cater to every possible craving. From fried to boiled to grilled to even edibles. We're equipped for every eventuality. We await your request.`;
 
     body.appendChild(header);
