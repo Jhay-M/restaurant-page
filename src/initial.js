@@ -11,8 +11,18 @@ let initialLoad = () => {
     slogan.classList.add('slogan');
     slogan.textContent = 'Catering to every craving...';
 
+    let menuTab = document.createElement('button');
+    menuTab.classList.add('menuTab');
+    menuTab.textContent = 'Menu';
+
+    let contactTab = document.createElement('button');
+    contactTab.classList.add('contactTab');
+    contactTab.textContent = 'Contact Us';
+
     header.appendChild(headline);
     header.appendChild(slogan);
+    header.appendChild(menuTab);
+    header.appendChild(contactTab);
 
     let image = document.createElement('div');
     image.classList.add('image');
