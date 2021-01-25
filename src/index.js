@@ -14,13 +14,11 @@ let resetPage = () => {
 }
 
 menuBtn.addEventListener('click', () => {
-    //Add Button Color change
     resetPage();
     loadMenu();
 })
 
 contactBtn.addEventListener('click', () => {
-    //Add Button Color change
     resetPage();
     loadContact();
 })
